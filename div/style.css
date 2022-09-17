@@ -1,0 +1,28 @@
+.principal{
+    background-color: black;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    column-gap: 1.1rem;
+}
+.noticia{
+    background-color: skyblue;
+   
+}
+.anucio{
+    background-color: brown;
+   
+    
+}
+@media (max-width: 800px){
+
+    .principal{
+   
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 1.1rem;
+    }
+
+
+}
+.{}
